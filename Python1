@@ -1,0 +1,13 @@
+import random
+
+luckyNumber = random.randint(1,100)
+fortuneNumber = random.randint(1,4)
+fortunetext = ''
+
+if fortuneNumber == 2:
+  fortunetext = 'The rice that bears the most fruit hangs the lowest'
+else:
+  fortunetext = 'The toughest iron requires the most rigorous tempering'
+
+print(f"The sword that cuts the dragon's head off is a sword of dragon blood. Your lucky number is: {luckyNumber}")
+print(f"{fortunetext}. Your lucky number is: {luckyNumber}")
